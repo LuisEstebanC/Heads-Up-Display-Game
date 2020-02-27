@@ -1,23 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E056FD"
     tools:context=".MainActivity">
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Heads-Up-Display-Game!"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="327dp"
+        android:layout_height="442dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo3" />
 
+        <Button
+            android:id="@+id/btnCategorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Categorias"
+            android:background="@drawable/btns"
+            android:textColor="@drawable/txt_btn" />
 
+        <Button
+            android:id="@+id/btnAcercade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btns"
+            android:text="Acerca de:"
+            android:textColor="@drawable/txt_btn" />
+    </LinearLayout>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

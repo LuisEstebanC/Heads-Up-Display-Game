@@ -3,7 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-
+    <color name="aqua">#E056FD</color>
     <!--its not a white color, actually is gray xd.-->
     <color name="white">#fff</color>
+    <color name="purpura">#8854d0</color>
 </resources>
